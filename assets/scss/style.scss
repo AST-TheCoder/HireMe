@@ -1,0 +1,42 @@
+@import './variables';
+@import './navbar';
+@import './hero.home';
+@import './about-us.home';
+@import './copyright.home';
+@import './login-container.login';
+@import './profile';
+@import './profile-sidebar.profile';
+@import './edit-personal-info.profile';
+@import './change-password.profile';
+@import './filter-by-post-owner.profile';
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  color: $default-text;
+}
+
+body {
+  background-color: $light;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-semibold {
+  font-weight: 600;
+}
+
+.form-control:focus,
+.form-select:focus,
+.form-check:focus,
+.btn:focus {
+  box-shadow: none !important;
+}

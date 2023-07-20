@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.2",
+    "jquery": "^3.6.0"
+  },
+  "name": "teach-me",
+  "version": "1.0.0",
+  "main": "index.php",
+  "scripts": {
+    "compile-sass": "sass -w assets/scss/style.scss assets/css/style.css"
+  },
+  "keywords": [],
+  "author": "Shohag, Tonmoy & Sourav",
+  "license": "ISC",
+  "description": "A tutor finding website where students will find their desired teachers by different topics",
+  "devDependencies": {
+    "sass": "^1.49.0"
+  }
+}
